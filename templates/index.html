@@ -1,0 +1,377 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h1 class="display-4 fw-bold">Safety Training Resources</h1>
+                <p class="lead">Get expert guidance on workplace safety training, compliance requirements, and best
+                    practices with our AI-powered chat assistant.</p>
+                <div class="d-flex gap-3 mt-4">
+                    <a href="#chat-section" class="btn btn-primary">
+                        <i class="fas fa-comments me-2"></i>Chat with Assistant
+                    </a>
+                    <a href="#resources" class="btn btn-outline-primary">
+                        <i class="fas fa-book me-2"></i>Browse Resources
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center mt-4 mt-lg-0">
+                <div class="hero-image-container">
+                    <i class="fas fa-hard-hat safety-icon"></i>
+                    <i class="fas fa-user-shield safety-icon"></i>
+                    <i class="fas fa-first-aid safety-icon"></i>
+                    <i class="fas fa-clipboard-check safety-icon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="features-section py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Why Use Our Safety Training Assistant</h2>
+        <div class="row g-4">
+            <div class="col-md-3">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Find Resources</h3>
+                    <p>Quickly locate relevant safety training materials tailored to your industry and needs.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clipboard-list"></i>
+                    </div>
+                    <h3>Requirements Guide</h3>
+                    <p>Learn about training requirements for your specific role or industry sector.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Expert Guidance</h3>
+                    <p>Get answers to your safety training questions from our AI assistant.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Training Paths</h3>
+                    <p>Discover recommended training paths for career advancement in safety.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Recommended Videos Section -->
+<section id="resources" class="videos-section py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Recommended Safety Training Resources</h2>
+        <div class="row g-4">
+            <!-- Static YouTube Video Cards -->
+            <div class="col-md-6 col-lg-3">
+                <div class="video-card">
+                    <div class="video-thumbnail"
+                        style="background-image: url('https://img.youtube.com/vi/mNk0mZRJBV0/hqdefault.jpg')">
+                        <div class="video-overlay">
+                            <a href="https://www.youtube.com/watch?v=mNk0mZRJBV0" target="_blank"
+                                class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>Basic First Aid</h3>
+                        <p>Learn the basic first aid.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="video-card">
+                    <div class="video-thumbnail"
+                        style="background-image: url('https://img.youtube.com/vi/Ytf2huCyyAw/hqdefault.jpg')">
+                        <div class="video-overlay">
+                            <a href="https://www.youtube.com/watch?v=Ytf2huCyyAw" target="_blank"
+                                class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>First Aid in the Workplace</h3>
+                        <p>Learn essential first aid techniques for emergencies.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="video-card">
+                    <div class="video-thumbnail"
+                        style="background-image: url('https://img.youtube.com/vi/MNfcfWxweg4/hqdefault.jpg')">
+                        <div class="video-overlay">
+                            <a href="https://www.youtube.com/watch?v=MNfcfWxweg4" target="_blank"
+                                class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>OSHA 10 Explained</h3>
+                        <p>Everything you need to know about OSHA 10 safety certification for workers and employers.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="video-card">
+                    <div class="video-thumbnail"
+                        style="background-image: url('https://img.youtube.com/vi/w4jHpHoYZhk/hqdefault.jpg')">
+                        <div class="video-overlay">
+                            <a href="https://www.youtube.com/watch?v=w4jHpHoYZhk" target="_blank"
+                                class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>Fire Safety Basics</h3>
+                        <p>Fire safety protocols and extinguisher usage.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lockout/Tagout (LOTO) Procedures -->
+            <div class="col-md-6 col-lg-3">
+                <div class="video-card">
+                    <div class="video-thumbnail"
+                        style="background-image: url('https://img.youtube.com/vi/o5CWnUFsevo/hqdefault.jpg')">
+                        <div class="video-overlay">
+                            <a href="https://www.youtube.com/watch?v=o5CWnUFsevo" target="_blank"
+                                class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>Lockout/Tagout Safety</h3>
+                        <p>Understand LOTO procedures to prevent hazardous energy during maintenance or repair work.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Electrical Safety Tips -->
+            <div class="col-md-6 col-lg-3">
+                <div class="video-card">
+                    <div class="video-thumbnail"
+                        style="background-image: url('https://img.youtube.com/vi/k-HRy3eh36Y/hqdefault.jpg')">
+                        <div class="video-overlay">
+                            <a href="https://www.youtube.com/watch?v=k-HRy3eh36Y" target="_blank"
+                                class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>Electrical Safety Essentials</h3>
+                        <p>Key rules and safety protocols when working around electricity or energized equipment.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Eye Protection & Face Shields -->
+            <div class="col-md-6 col-lg-3">
+                <div class="video-card">
+                    <div class="video-thumbnail"
+                        style="background-image: url('https://img.youtube.com/vi/r6y4nT6WdMU/hqdefault.jpg')">
+                        <div class="video-overlay">
+                            <a href="https://www.youtube.com/watch?v=r6y4nT6WdMU" target="_blank"
+                                class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>Eye & Face Protection</h3>
+                        <p>Why and how to protect eyes and face from flying debris, chemicals, and more.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ladder Safety (Construction) -->
+            <div class="col-md-6 col-lg-3">
+                <div class="video-card">
+                    <div class="video-thumbnail"
+                        style="background-image: url('https://img.youtube.com/vi/XbEL_447oHg/hqdefault.jpg')">
+                        <div class="video-overlay">
+                            <a href="https://www.youtube.com/watch?v=XbEL_447oHg" target="_blank"
+                                class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>Safe Ladder Practices</h3>
+                        <p>A quick guide for construction workers on ladder positioning, stability, and inspection.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ergonomics at Work -->
+            <div class="col-md-6 col-lg-3">
+                <div class="video-card">
+                    <div class="video-thumbnail"
+                        style="background-image: url('https://img.youtube.com/vi/1sb548iiuPY/hqdefault.jpg')">
+                        <div class="video-overlay">
+                            <a href="https://www.youtube.com/watch?v=1sb548iiuPY" target="_blank"
+                                class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>Workplace Ergonomics</h3>
+                        <p>Reduce injuries by improving workstation setup, posture, and lifting techniques.</p>
+                    </div>
+                </div>
+            </div>
+
+            {% for video in recommended_videos %}
+            <div class="col-md-6 col-lg-3">
+                <div class="video-card">
+                    <div class="video-thumbnail" style="background-image: url('{{ video.icon }}')">
+                        <div class="video-overlay">
+                            <a href="{{ video.link }}" target="_blank" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>{{ video.title }}</h3>
+                        <p>{{ video.description }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Safety Resources Section -->
+<section class="resources-section py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">Essential Safety Resources</h2>
+        <div class="row g-4">
+            {% for resource in safety_resources %}
+            <div class="col-md-6">
+                <div class="resource-card">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <div class="resource-image" style="background-image: url('{{ resource.image }}')"></div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="resource-info">
+                                <h3>{{ resource.title }}</h3>
+                                <p>{{ resource.description }}</p>
+                                <a href="{{ resource.link }}" target="_blank" class="btn btn-outline-primary">Access
+                                    Resource</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Chat Section -->
+<!-- Inside index.html -->
+
+<!-- Chat Section -->
+<section id="chat-section" class="chat-section py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="chat-container">
+                    <div class="chat-header">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-robot me-2"></i>
+                            <h2 class="mb-0">Safety Training Assistant</h2>
+                        </div>
+                        
+                        <!-- Updated description -->
+                    </div>
+
+                    <!-- Add data attribute here -->
+                    <div class="chat-messages" id="chat-messages" data-initial-message="{{ initial_bot_message }}">
+                        <!-- Initial message will be populated by JavaScript -->
+                    </div>
+
+                    <div class="chat-input">
+                        <form id="chat-form">
+                            <div class="input-group">
+                                <input type="text" id="user-input" class="form-control"
+                                    placeholder="Type your question here..." aria-label="User message">
+                                <button class="btn btn-primary" type="submit">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
+                        <div class="chat-suggestions mt-2">
+                            <p class="small mb-1">Try asking:</p>
+                            <div class="d-flex flex-wrap gap-2">
+                                <button class="btn btn-sm btn-outline-secondary suggestion-btn"
+                                    data-suggestion="What safety training do I need for construction work?">Construction
+                                    training</button>
+                                <button class="btn btn-sm btn-outline-secondary suggestion-btn"
+                                    data-suggestion="Tell me about OSHA 10 vs OSHA 30 training">OSHA 10 vs OSHA
+                                    30</button>
+                                <button class="btn btn-sm btn-outline-secondary suggestion-btn"
+                                    data-suggestion="What first aid training is recommended for the workplace?">First
+                                    aid training</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- About Section -->
+<section id="about" class="about-section py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <h2 class="mb-4">About SafetyTrainPro</h2>
+                <p class="lead">SafetyTrainPro is a resource hub created to make safety training simple, accessible, and practical for everyone in the workplace.</p>
+                <p>Our goal is to help workers, managers, and employers understand essential safety requirements, stay up to date with compliance guidelines, and access reliable training materials that suit their specific roles and industries.</p>
+                <p>Whether you're just starting a job that requires safety certification, organizing a training program for your team, or looking to refresh your own knowledge, SafetyTrainPro brings together the information and tools you need — all in one place.This platform is built to support informed decision-making, promote safe work environments, and make safety training less overwhelming and more effective.</p>
+                <div class="mt-4">
+                    <h4>What our assistant can help with:</h4>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul class="list-group">
+                                <li class="list-group-item"><i class="fas fa-check-circle text-success me-2"></i>Finding
+                                    training resources</li>
+                                <li class="list-group-item"><i
+                                        class="fas fa-check-circle text-success me-2"></i>Understanding regulatory
+                                    requirements</li>
+                                <li class="list-group-item"><i
+                                        class="fas fa-check-circle text-success me-2"></i>Recommending role-based
+                                    training paths</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-group">
+                                <li class="list-group-item"><i
+                                        class="fas fa-check-circle text-success me-2"></i>Explaining training standards
+                                </li>
+                                <li class="list-group-item"><i class="fas fa-check-circle text-success me-2"></i>Safety
+                                    training best practices</li>
+                                <li class="list-group-item"><i
+                                        class="fas fa-check-circle text-success me-2"></i>Creating training checklists
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
